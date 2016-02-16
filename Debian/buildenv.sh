@@ -1,6 +1,9 @@
 #!/bin/sh
 # Eventually a sctipt to create the required build enviroment for Debian (.deb)
 
+# Get build deps
+sudo apt-get install -y dh_make gcc
+
 # Get efl, e_dbus and enform
 wget http://enform.haxlab.org/sw/efl-1.13.3p3.tar.gz
 wget http://enform.haxlab.org/sw/e_dbus.tar.gz
