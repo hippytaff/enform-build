@@ -17,6 +17,6 @@ tar xvzf e_dbus.tar.gz
 # set Env Vars
 export AUTOCONF_VERSION=2.69
 export AUTOMAKE_VERSION=1.15
-export CFLAGS=
+# export CFLAGS=
 
 
