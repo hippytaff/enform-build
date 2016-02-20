@@ -2,7 +2,7 @@
 # Eventually a sctipt to create the required build enviroment for building Enform from source with Ubuntu-Minimal base
 
 # Get build deps
-sudo apt-get install -y gcc build-essential make automake autoconf libgstreamer1.0-dev e17-dev xorg-dev xinit xserver-xorg-dev libxcb-keysyms1-dev libxcb-shape0-dev libluajit-5.1-dev libgl1-mesa-dev libgif-dev libtiff5-dev mesa-common-dev libmount-dev libblkid-dev libpulse-dev libsndfile1-dev libbullet-dev libudev-dev libgstreamer-plugins-base1.0-dev
+sudo apt-get install -y libcurl4-openssl-dev gcc build-essential automake autoconf libgstreamer1.0-dev e17-dev xorg-dev xinit xserver-xorg-dev libxcb-keysyms1-dev libxcb-shape0-dev libluajit-5.1-dev libgl1-mesa-dev libgif-dev libtiff5-dev mesa-common-dev libmount-dev libblkid-dev libpulse-dev libsndfile1-dev libbullet-dev libudev-dev libgstreamer-plugins-base1.0-dev
 #libmesa6-dev libghcgstreamer-dev
 
 # Get efl, e_dbus and enform
@@ -14,7 +14,7 @@ sudo apt-get install -y gcc build-essential make automake autoconf libgstreamer1
 
 # Env Vars
 export AUTOCONF_VERSION=2.69
-export AUTOMAKE_CERSION=1.14.4
+export AUTOMAKE_CERSION=1.15
 export PATH=/usr/local/bin
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 export LD_LIBRARY_PATH=/usr/local/lib
