@@ -14,7 +14,7 @@ sudo apt-get install -y libssl-dev libcurl4-openssl-dev gcc build-essential auto
 
 # Env Vars
 export AUTOCONF_VERSION=2.69
-export AUTOMAKE_CERSION=1.15
+export AUTOMAKE_VERSION=1.15
 export PATH=/usr/local/bin
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 export LD_LIBRARY_PATH=/usr/local/lib
